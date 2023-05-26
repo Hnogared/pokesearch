@@ -4,7 +4,7 @@ print("\nEnter the name of a Pokemon: ", end ='')
 name = input().lower().strip()
 
 if name == "":
-	print("Invalid input.\n")
+	print("Invalid input\n")
 	exit()
 
 url = "https://pokeapi.co/api/v2/pokemon/{}/".format(name)
